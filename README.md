@@ -1,113 +1,86 @@
-# Bloodborne Indonesian Translation (Native PC Port)
+# Bloodborne Indonesian Translation
 
 ![Status](https://img.shields.io/badge/Status-Released-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Native%20PC%20Port-blue)
-![Region](https://img.shields.io/badge/Region-CUSA03173%20(EU)-green)
+![Platform](https://img.shields.io/badge/Platform-PC%20%28shadPS4%29-blue)
+![Region](https://img.shields.io/badge/Region-CUSA03173%20%28EU%29-green)
 ![Language](https://img.shields.io/badge/Language-Bahasa%20Indonesia-red)
 
-Mod terjemahan Bahasa Indonesia untuk **Bloodborne Native PC Port (`bbport`)**.
+Mod terjemahan Bahasa Indonesia untuk **Bloodborne PC Native Port**.
 
-Proyek ini bertujuan memberikan pengalaman bermain yang lebih imersif bagi para Hunter Indonesia melalui terjemahan yang mempertahankan atmosfer *Dark Fantasy*, horor Gotik, dan *Cosmic Horror* khas Bloodborne.
+Proyek ini bertujuan menghadirkan pengalaman bermain Bloodborne yang lebih imersif bagi para Hunter di Indonesia. Terjemahan disesuaikan dengan nuansa *Dark Fantasy*, horor Gotik, dan *Cosmic Horror* khas Bloodborne, dengan tetap mempertahankan identitas serta atmosfer dari game aslinya.
 
-## ✨ Fitur Utama
+## ✨ Fitur
 
-- **UI & Menu**: Terjemahan menu, pengaturan, dan teks antarmuka.
-- **Dialog & NPC**: Terjemahan percakapan karakter dan teks yang berkaitan dengan lore.
-- **Item & Deskripsi**: Terjemahan deskripsi senjata, perlengkapan, dan item dengan gaya bahasa yang sesuai dengan atmosfer game.
+- **UI & Menu**: Terjemahan menu utama, pengaturan, dan berbagai teks antarmuka.
+- **Dialog & NPC**: Terjemahan dialog karakter serta teks yang berkaitan dengan lore.
+- **Item & Deskripsi**: Terjemahan deskripsi senjata, perlengkapan, dan berbagai item dengan gaya bahasa yang menyesuaikan atmosfer game.
 - **Blood Messages**: Terjemahan pesan pemain yang ditemukan di sepanjang permainan.
-- **Konsistensi Terminologi**: Nama item, *Blood Echoes*, *Insight*, *Hunter's Dream*, *Caryll Runes*, serta nama lokasi tertentu tetap menggunakan Bahasa Inggris untuk mempertahankan identitas dan nuansa asli Bloodborne.
+- **Konsistensi Terminologi**: Nama item, *Blood Echoes*, *Insight*, *Hunter's Dream*, *Caryll Runes*, serta nama karakter dan lokasi tertentu tetap menggunakan bahasa Inggris untuk mempertahankan identitas asli Bloodborne.
 
-## ⚠️ Kompatibilitas
+## 🖥️ Kompatibilitas
 
-- **Game**: Bloodborne Native PC Port (`bbport`).
-- **Region**: Diuji pada CUSA03173 (Europe / GOTY Edition).
-- **Bahasa**: English (UK) atau English (US), sesuai dengan folder bahasa yang digunakan.
-- **Platform**: Linux x86-64 dengan lingkungan runtime yang didukung oleh `bbport`.
+| Komponen | Keterangan |
+|---|---|
+| Game | Bloodborne |
+| Platform | PC |
+| Launcher | https://github.com/Jgamrot/bloodborne_pc |
+| Region yang diuji | CUSA03173 (Europe / GOTY Edition) |
+| Bahasa sumber | English (UK) / English (US) |
 
-> **Catatan:** Kompatibilitas dengan region atau konfigurasi game lainnya belum tentu terjamin. Pastikan file terjemahan sesuai dengan struktur direktori instalasi yang digunakan.
+**Catatan:** Kompatibilitas dengan region dan versi game lain belum tentu terjamin. Pastikan kamu menggunakan folder bahasa yang sesuai dengan konfigurasi game.
 
-## 📥 Cara Instalasi
+## 📥 Instalasi
 
 ### 1. Unduh mod
 
-Unduh file `.zip` terbaru melalui halaman **[Releases](../../releases)** pada repositori ini.
+Unduh versi terbaru melalui halaman **[Releases](https://github.com/erezeth/Bloodborne-Bahasa-Indonesia/releases)** di repositori ini, kemudian ekstrak file `.zip` yang telah diunduh.
 
-### 2. Ekstrak file
+### 2. Backup file asli
 
-Ekstrak arsip yang telah diunduh. Pastikan folder hasil ekstraksi dapat diakses sebelum melanjutkan instalasi.
+Sebelum memasang mod, **buat salinan folder `enggb & engus` asli** dari instalasi game dan simpan di lokasi yang aman. Backup ini diperlukan untuk memulihkan file game jika terjadi masalah.
 
-### 3. Backup file asli
+### 3. Buka folder mod
 
-**WAJIB:** Salin folder `msg` asli dari instalasi game dan simpan di lokasi yang aman sebelum mengganti file apa pun.
+Setelah diekstrak, buka folder `Bloodborne Bahasa Indonesia` dan cari folder `dvdroot_ps4`.
 
-Backup ini diperlukan untuk memulihkan file asli jika terjadi masalah.
 
-### 4. Salin file terjemahan
 
-Buka folder `CUSA03173` dari hasil ekstraksi. Salin folder `msg`, atau folder bahasa yang sesuai (`enggb` / `engus`) jika tersedia, ke direktori berikut:
+### 4. Pasang file terjemahan
+
+Salin folder `dvdroot_ps4` ke dalam direktori game berikut:
 
 ```text
-Bloodborne/
-└── CUSA03173/
+  CUSA03173/
     └── dvdroot_ps4/
-        └── msg/
 ```
 
-Sesuaikan lokasi direktori dengan struktur instalasi `bbport` yang kamu gunakan. Jangan menimpa folder lain di luar cakupan mod.
+Pilih **Replace** jika sistem meminta konfirmasi untuk menimpa file yang sudah ada.
 
-### 5. Timpa file
+### 5. Jalankan game
 
-Jika sistem meminta konfirmasi, pilih **Replace** untuk mengganti file yang sesuai dengan file terjemahan.
+Jalankan Bloodborne melalui shadPS4 atau BBLauncher, kemudian periksa apakah teks telah diterjemahkan dengan benar.
 
-### 6. Jalankan game
+### Catatan untuk region US (CUSA00900)
 
-Jalankan Bloodborne melalui `bbport` dan periksa apakah terjemahan telah diterapkan dengan benar.
+Mod ini ditujukan untuk region **CUSA03173**. Kompatibilitas region US belum dijamin. Jangan mengganti file game sebelum membuat backup.
 
-### Catatan untuk region US
+## 🙏 Kredit
 
-Untuk game region US **CUSA00900**, file `.dcx` mungkin perlu ditempatkan di folder `engus` yang sesuai.
+Terima kasih kepada pihak-pihak berikut yang mendukung pengembangan proyek ini:
 
-Dukungan region US belum dijamin. Selalu buat backup sebelum melakukan perubahan.
-
-## 🐛 Melaporkan Bug atau Typo
-
-Jika menemukan masalah terjemahan, silakan buat laporan melalui halaman **[Issues](../../issues)**.
-
-Jenis laporan yang dapat dikirimkan meliputi:
-
-- Typo atau kesalahan terjemahan.
-- Teks yang belum diterjemahkan.
-- Teks terpotong atau keluar dari batas antarmuka (*out of bounds*).
-- Istilah yang tidak konsisten.
-- Teks yang tidak tampil sebagaimana mestinya.
-
-Sertakan informasi berikut agar masalah lebih mudah ditelusuri:
-
-- Lokasi teks di dalam game.
-- Screenshot yang menunjukkan masalah.
-- Region game yang digunakan.
-- Informasi tambahan mengenai konfigurasi atau versi port jika relevan.
-
-## 🙏 Kredit dan Ucapan Terima Kasih
-
-Proyek ini terbantu oleh berbagai tool dan kontribusi komunitas:
-
-- **FromSoftware & Sony Interactive Entertainment**: Pengembang dan pemegang hak kekayaan intelektual Bloodborne.
-- **[Smithbox](https://github.com/vawser/Smithbox)**: Tool modding untuk mengelola dan mengedit data teks FMG.
-- **BinderTool / Yabber**: Tool pendukung untuk ekstraksi dan pengelolaan file game.
-- **Claude AI**: Asisten dalam proses penerjemahan teks dari Bahasa Inggris ke Bahasa Indonesia.
-- **Komunitas Modding Bloodborne PC**: Komunitas yang mendukung pengembangan dan eksplorasi teknis Bloodborne di PC.
+- **FromSoftware & Sony Interactive Entertainment**: Pengembang dan pemilik hak atas Bloodborne.
+- **[Smithbox](https://github.com/vawser/Smithbox)**: Tool modding yang digunakan untuk mengelola dan mengedit data teks FMG.
 
 ## ⚖️ Disclaimer
 
 Proyek ini merupakan modifikasi buatan penggemar (*fan-made*) dan tidak berafiliasi dengan, didukung oleh, atau secara resmi terkait dengan FromSoftware maupun Sony Interactive Entertainment.
 
-Seluruh hak atas Bloodborne, termasuk game, karakter, aset, dan teks aslinya, tetap menjadi milik pemegang hak masing-masing.
+Seluruh hak kekayaan intelektual atas Bloodborne, termasuk game, karakter, aset, dan materi aslinya, tetap menjadi milik pemegang hak masing-masing.
 
 Mod ini didistribusikan secara gratis dan tidak dimaksudkan untuk diperjualbelikan.
 
 ---
 
-*Dibuat untuk para Hunter Indonesia.*
+*Dibuat oleh komunitas, untuk para Hunter Indonesia.*
 
-**Fear the Old Blood.**
+**Good hunting, fellow Hunters.**
