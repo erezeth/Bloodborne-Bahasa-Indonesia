@@ -37,7 +37,7 @@ Unduh versi terbaru melalui halaman **[Releases](https://github.com/erezeth/Bloo
 
 ### 2. Backup file asli
 
-Sebelum memasang mod, **buat salinan folder `enggb & engus` asli** dari instalasi game dan simpan di lokasi yang aman. Backup ini diperlukan untuk memulihkan file game jika terjadi masalah.
+Sebelum memasang mod, **buat salinan folder `enggb & engus`** asli dari instalasi game dan simpan di lokasi yang aman. Backup ini diperlukan untuk memulihkan file game jika terjadi masalah.
 
 ### 3. Buka folder mod
 
