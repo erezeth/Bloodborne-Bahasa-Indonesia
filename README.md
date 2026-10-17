@@ -1,7 +1,7 @@
 # Bloodborne Indonesian Translation
 
 ![Status](https://img.shields.io/badge/Status-Released-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-PC%20%(Native_Port)-blue)
+![Platform](https://img.shields.io/badge/Platform-PC%20(Native_Port)-blue)
 ![Region](https://img.shields.io/badge/Region-CUSA03173%20%28EU%29-green)
 ![Language](https://img.shields.io/badge/Language-Bahasa%20Indonesia-red)
 
