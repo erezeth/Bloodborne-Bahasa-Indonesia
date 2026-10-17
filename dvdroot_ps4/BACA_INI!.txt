@@ -1,4 +1,12 @@
+Ini adalah mod Bahasa Indonesia untuk game Bloodborne (CUSA03173 or EUR version).
+
+Instalasi:
 copy `dvdroot_ps4` kedalam folder CUSA kalian dan pilih opsi replace
 
-my repo:
+
+DISCLAIMER:
+saya mencoba mod ini menggunakan bloodborne versi eropa jadi saya kurang tahu jika modnya bekerja atau tidak di versi yang berbeda dengan saya.
+
+
+Repository:
 https://github.com/erezeth/Bloodborne-Bahasa-Indonesia/
