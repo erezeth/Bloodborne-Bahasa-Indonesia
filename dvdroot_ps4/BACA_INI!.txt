@@ -1,0 +1,4 @@
+copy `dvdroot_ps4` kedalam folder CUSA kalian dan pilih opsi replace
+
+my repo:
+https://github.com/erezeth/Bloodborne-Bahasa-Indonesia/
