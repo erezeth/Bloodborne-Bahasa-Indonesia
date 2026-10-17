@@ -9,6 +9,12 @@ Mod terjemahan Bahasa Indonesia untuk **Bloodborne PC Native Port**.
 
 Proyek ini bertujuan menghadirkan pengalaman bermain Bloodborne yang lebih imersif bagi para Hunter di Indonesia. Terjemahan disesuaikan dengan nuansa *Dark Fantasy*, horor Gotik, dan *Cosmic Horror* khas Bloodborne, dengan tetap mempertahankan identitas serta atmosfer dari game aslinya.
 
+## 🔗 Download & Repository
+
+- **[Nexus Mods](https://www.nexusmods.com/bloodborne/mods/613)**: Unduh mod terjemahan Bahasa Indonesia.
+- **[GitHub Repository](https://github.com/erezeth/Bloodborne-Bahasa-Indonesia)**: Source files, dokumentasi.
+- **[GitHub Releases](https://github.com/erezeth/Bloodborne-Bahasa-Indonesia/releases)**: Unduh versi terbaru dari GitHub.
+
 ## ✨ Fitur
 
 - **UI & Menu**: Terjemahan menu utama, pengaturan, dan berbagai teks antarmuka.
